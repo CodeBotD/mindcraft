@@ -3,7 +3,7 @@ import { strictFormat } from '../utils/text.js';
 export class Local {
     constructor(model_name, url) {
         this.model_name = model_name;
-        this.url = url || 'http://192.168.100.244:11434';
+        this.url = url || 'http://127.0.0.1:11434';
         this.chat_endpoint = '/api/chat';
         this.embedding_endpoint = '/api/embeddings';
     }
